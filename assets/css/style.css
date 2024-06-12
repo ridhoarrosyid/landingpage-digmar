@@ -1,3 +1,24 @@
 .container-margin-y {
   margin-block: 150px;
 }
+
+.container-padding-y {
+  padding-block: 150px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 18%;
+}
+
+.grid-item {
+  border: 2px solid #b6b5b4;
+  background: #e6e5e4;
+  margin: 5px;
+}
