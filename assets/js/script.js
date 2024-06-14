@@ -1,23 +1,23 @@
-const grid = $(".grid").isotope({
-  // options
-  itemSelector: ".grid-item",
-  layoutMode: "fitRows",
-  percentPosition: true,
-  filter: "*",
-  masonry: {
-    // use element for option
-    columnWidth: ".grid-sizer",
-  },
+var $grid = $(".grid").imagesLoaded(function () {
+  $grid.isotope({
+    itemSelector: ".grid-item",
+    percentPosition: true,
+    filter: "*",
+    masonry: {
+      isFitWidth: true,
+      columnWidth: 50,
+      glutter: 10,
+    },
+  });
 });
 
 $(".filter-button-group").on("click", "button", function () {
   const filterValue = $(this).attr("data-filter");
-  grid.isotope({ filter: filterValue });
+  $grid.isotope({ filter: filterValue });
 });
 
 const lightbox = new GLightbox({});
 
 AOS.init({
-  delay: 50,
   duration: 1000,
 });
