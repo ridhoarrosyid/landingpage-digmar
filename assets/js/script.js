@@ -14,10 +14,12 @@ var $grid = $(".grid").imagesLoaded(function () {
 $(".filter-button-group").on("click", "button", function () {
   const filterValue = $(this).attr("data-filter");
   $grid.isotope({ filter: filterValue });
+  $grid.isotope({ filter: filterValue });
 });
 
 const lightbox = new GLightbox({});
 
 AOS.init({
   duration: 1000,
+  ofseet: 0,
 });

@@ -26,22 +26,6 @@
           href="#"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
-          <svg
-            id="visual"
-            viewBox="0 0 900 600"
-            width="40"
-            height="40"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1"
-          >
-            <g transform="translate(442.57913657069196 283.8615525592501)">
-              <path
-                d="M149.4 -144C197.9 -100.9 244.4 -50.4 254.6 10.1C264.7 70.7 238.4 141.4 189.9 190.6C141.4 239.8 70.7 267.4 17.7 249.7C-35.4 232 -70.7 169 -120.4 119.9C-170 70.7 -234 35.4 -241.2 -7.2C-248.4 -49.7 -198.8 -99.5 -149.1 -142.6C-99.5 -185.8 -49.7 -222.4 0.4 -222.8C50.4 -223.1 100.9 -187.2 149.4 -144"
-                fill="#001122"
-              ></path>
-            </g>
-          </svg>
           <span class="fs-4">Gama Textile</span>
         </a>
         <button
@@ -76,11 +60,7 @@
                 >Galeri</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#testimoni" class="nav-link text-black fw-semibold"
-                >Testimoni</a
-              >
-            </li>
+
             <li class="nav-item">
               <a href="#produk" class="nav-link text-black fw-semibold"
                 >Produk</a
@@ -112,9 +92,10 @@
               width="700"
               height="500"
               loading="lazy"
+              data-aos="zoom"
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="zoom" data-aos-delay="200">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Elegansi Tradisional yang Timeless
             </h1>
@@ -138,7 +119,7 @@
     <div class="bg-dark rounded-5 py-5 text-white">
       <div class="container py-5">
         <div class="row featurette mx-auto py-4">
-          <div class="col-md-7 pt-5 text-end">
+          <div class="col-md-7 pt-5 text-end" data-aos="fade-down">
             <h2 class="featurette-heading fw-normal lh-1">
               Apakah Anda mencari kebaya yang memadukan tradisi dengan
               <span class="text-white-50 fw-bold">gaya modern?</span>
@@ -159,7 +140,7 @@
         </div>
 
         <div class="row featurette mx-auto my-4">
-          <div class="col-md-7 order-md-2 pt-5">
+          <div class="col-md-7 order-md-2 pt-5" data-aos="fade-down">
             <h2 class="featurette-heading fw-normal lh-1">
               Ingin tampil memukau di setiap acara spesial dengan
               <span class="text-white-50 fw-bold">kebaya eksklusif?</span>
@@ -180,7 +161,7 @@
         </div>
 
         <div class="row featurette mx-auto py-4">
-          <div class="col-md-7 pt-5 text-end">
+          <div class="col-md-7 pt-5 text-end" data-aos="fade-down">
             <h2 class="featurette-heading fw-normal lh-1">
               Ingin memiliki kebaya yang sempurna untuk setiap
               <span class="text-white-50 fw-bold">momen istimewa.</span>
@@ -205,7 +186,9 @@
     </div>
     <div class="bg-light" id="keunggulan">
       <div class="container px-4 py-5" id="featured-3">
-        <h2 class="py-5 text-center">Keunggulan Produk Kami</h2>
+        <h2 class="py-5 text-center" data-aos="zoom-out">
+          Keunggulan Produk Kami
+        </h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col text-center" data-aos="flip-right">
             <div
@@ -251,7 +234,7 @@
       </div>
     </div>
     <div class="bg-dark pt-5" id="galeri">
-      <div class="container text-center py-5">
+      <div class="container text-center py-5" data-aos="zoom-out">
         <h2 class="mb-5 text-white">Galeri Kami</h2>
         <video
           data-aos="zoom-in"
@@ -263,7 +246,7 @@
           loading="lazy"
         ></video>
         <div class="my-5">
-          <div class="btn-group filter-button-group">
+          <div class="btn-group filter-button-group" data-aos="zoom-in">
             <button data-filter="*" class="btn btn-light text-black">
               Semua
             </button>
@@ -281,7 +264,7 @@
             </button>
           </div>
         </div>
-        <div class="grid text-white" data-aos="fade-up">
+        <div class="grid text-white" data-aos="fade-up" data-aos-once="true">
           <div class="grid-sizer"></div>
           <div class="grid-item kain">
             <a href="assets/img/aneka-kain.jpg" class="glightbox">
@@ -372,14 +355,7 @@
                 alt="manik manik"
             /></a>
           </div>
-          <div class="grid-item peyet">
-            <a href="assets/img/peyet1.jpg" class="glightbox">
-              <img
-                src="assets/img/peyet1.jpg"
-                class="img-fluid img-thumbnail"
-                alt="peyet"
-            /></a>
-          </div>
+
           <div class="grid-item peyet">
             <a href="assets/img/peyet2.jpg" class="glightbox">
               <img
@@ -407,61 +383,7 @@
         </div>
       </div>
     </div>
-    <div id="testimoni" class="py-5">
-      <div class="container py-5 px-5 mx-auto row">
-        <h1 class="text-center mb-5 col-12 col-lg-8 align-self-center">
-          Cari Tahu Kata Mereka...
-        </h1>
-        <div
-          id="carouselExample"
-          class="carousel slide col-12 col-lg-4 text-end"
-          data-aos="fade-up"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/img/testimoni.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/testimoni.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/testimoni.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="bg-dark text-white container-padding-y rounded-5">
+    <div class="bg-light text-black container-padding-y rounded-5">
       <div class="container row mx-auto">
         <div
           class="col-6 text-end pt-3"
@@ -482,44 +404,50 @@
       </div>
     </div>
 
-    <div class="container mx-auto py-5" id="produk">
-      <h1 class="mb-5 py-4">Produk Populer Kami</h1>
-      <div class="d-flex justify-content-around">
-        <div class="card" style="width: 18rem" data-aos="fade-up">
-          <img src="assets/img/gaun-merah.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
-            <p class="fw-bold h4">Rp 200.000</p>
+    <div class="bg-dark text-white">
+      <div class="container mx-auto py-5" id="produk">
+        <h1 class="mb-5 py-4">Produk Populer Kami</h1>
+        <div class="d-flex justify-content-around">
+          <div class="card" style="width: 18rem" data-aos="fade-up">
+            <img
+              src="assets/img/gaun-merah.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
+              <p class="fw-bold h4">Rp 200.000</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem" data-aos="fade-up">
-          <img
-            src="assets/img/gaun-putih-pink.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
-            <p class="fw-bold h4">Rp 200.000</p>
+          <div class="card" style="width: 18rem" data-aos="fade-up">
+            <img
+              src="assets/img/gaun-putih-pink.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
+              <p class="fw-bold h4">Rp 200.000</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem" data-aos="fade-up">
-          <img
-            src="assets/img/kebaya-gaun-biru.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
-            <p class="fw-bold h4">Rp 200.000</p>
+          <div class="card" style="width: 18rem" data-aos="fade-up">
+            <img
+              src="assets/img/kebaya-gaun-biru.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">ini deskripsi Lorem ipsum dolor sit amet.</p>
+              <p class="fw-bold h4">Rp 200.000</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="container my-5 py-4" id="faq">
-      <h1 class="text-center my-5">FAQ</h1>
-      <div class="accordion" id="accordionExample">
+      <h1 class="text-center my-5" data-aos="zoom-in">FAQ</h1>
+      <div class="accordion" id="accordionExample" data-aos="zoom-in">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -714,56 +642,52 @@
     </div>
 
     <div class="container text-center px-5 container-margin-y">
-      <h1 class="px-5 mb-3">
+      <h1 class="px-5 mb-3" data-aos="fade-down">
         Jangan Tunda Lagi, Miliki Kebaya Impian Anda Sekarang!
       </h1>
-      <p class="px-5 mb-3">
+      <p class="px-5 mb-3" data-aos="fade-up">
         Nikmati keanggunan dan kenyamanan dari kebaya kami yang dirancang khusus
         untuk membuat Anda bersinar. Jangan lewatkan kesempatan untuk memiliki
         kebaya yang menggabungkan tradisi dan gaya modern dengan sempurna.
       </p>
-      <button class="btn btn-success d-md-block mx-auto fw-bold">
+      <button
+        class="btn btn-success d-md-block mx-auto fw-bold"
+        data-aos="fade"
+      >
         <i class="bi bi-whatsapp me-3"></i>Chat Sekarang
       </button>
     </div>
-    <div class="bg-black text-white-50 rounded-top-5">
+    <div class="bg-black text-white-50 rounded-top-5" data-aos="fade-up">
       <footer class="container pt-5">
         <h5 class="text-center my-5">Tetap terhubung dengan kami melalui...</h5>
         <div class="row">
-          <div class="col-12 col-md">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="d-block mb-2"
-              role="img"
-              viewBox="0 0 24 24"
-            >
-              <title>Product</title>
-              <circle cx="12" cy="12" r="10"></circle>
-              <path
-                d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
-              ></path>
-            </svg>
-            <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+          <div class="col-12 col-md"></div>
+          <div class="col-6 col-md my-auto">
+            <p>
+              <a
+                href="https://www.instagram.com/gamatextile/"
+                class="text-white-50"
+                >Instagram</a
+              >
+            </p>
           </div>
           <div class="col-6 col-md my-auto">
-            <p><a href="#" class="text-white-50">Instagram</a></p>
+            <p>
+              <a
+                href="http://www.shopee.co.id/gamatextile"
+                class="text-white-50"
+                >Shopee</a
+              >
+            </p>
           </div>
           <div class="col-6 col-md my-auto">
-            <p><a href="#" class="text-white-50">Shopee</a></p>
+            <p>
+              <a href="https://wa.me/6282175296631" class="text-white-50"
+                >Whatsapp</a
+              >
+            </p>
           </div>
-          <div class="col-6 col-md my-auto">
-            <p><a href="#" class="text-white-50">Whatsapp</a></p>
-          </div>
-          <div class="col-6 col-md my-auto">
-            <p><a href="#" class="text-white-50">Tiktok</a></p>
-          </div>
+          <div class="col-6 col-md my-auto"></div>
         </div>
       </footer>
     </div>
