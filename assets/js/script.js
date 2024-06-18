@@ -21,5 +21,5 @@ const lightbox = new GLightbox({});
 
 AOS.init({
   duration: 1000,
-  ofseet: 0,
+  offset: 20,
 });
